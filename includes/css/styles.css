@@ -1,0 +1,206 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#feature img
+{
+   height:100px;
+   width:100px;
+}
+#img-circle
+{
+   border-radius: 70%;
+}
+#show1
+{
+   float:left;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar{
+   background-color: pink;
+}
+#show2
+{
+   margin-left: 30px;
+}
+
+   #searchInput{
+      width:200px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel
+   {
+      margin-top: 70px;
+   }
+   .carousel-caption
+   {
+      font-size: 24px;
+   }
+   .carousel-caption h4
+   {
+      font-size: 32px;
+   }
+#myCarousel .item
+{
+   height:600px;
+}
+#slide1
+{
+   background:url('../../images/ma.jpg') top center no-repeat ;
+}
+#slide2
+{
+   background:url('../../images/mb.jpg') top center no-repeat ;
+}
+#slide3
+{
+   background:url('../../images/mc.jpg') top center no-repeat 
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   #myCarousel .item
+{
+   height:310px;
+}
+   #slide1
+{
+   background:url('../../images/sa.jpg') top center no-repeat ;
+}
+#slide2
+{
+   background:url('../../images/sb.jpg') top center no-repeat ;
+}
+#slide3
+{
+   background:url('../../images/sc.jpg') top center no-repeat 
+}
+}
+.carousel-caption 
+   {
+      font-size:40px;
+      color:red;
+   }
+.carousel-caption p
+   {
+      font-size:50px;
+      text-decoration-color: blue;
+      font-family:Monotype Corsiva;
+      color:blue;
+   }
+
+	
+
+
+#featuresHeading h2
+{
+font-size:52px;
+font-family:Monotype Corsiva;
+color:red;
+}
+
+#featuresHeading p
+{
+   font-size: 32px;
+   font-family:Pristina;
+}
+#moreInfo h3
+{
+   font-size: 35px;
+   font-family:Pristina;
+   color:red;
+
+}
+
+#moreCourses h3
+{
+   font-size: 35px;
+   font-family:Pristina;
+   color:red;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+   #myCarousel .item
+{
+   height:500px;
+}
+#slide1
+{
+   background:url('../../images/la.jpg') top center no-repeat ;
+}
+#slide2
+{
+   background:url('../../images/lb.jpg') top center no-repeat ;
+}
+#slide3
+{
+   background:url('../../images/lc.jpg') top center no-repeat 
+}
+
+}
+
+
+.panel p{
+   font-size: 28px;
+   font-family:Brush Script MT;
+}
+#dispaly img
+{
+   margin-left:30px;
+   float:center;
+   margin-top:10px;
+}
+
+#show 
+{
+   font-size: 26px;
+   
+   font-family: Brush Script MT;
+}
+
+
